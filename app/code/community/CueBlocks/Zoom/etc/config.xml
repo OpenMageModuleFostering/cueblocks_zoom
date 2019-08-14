@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * Package :- CueBlocks_Zoom-1.5.tgz
+ * Version :- 1.5
+ * Edition :- Community
+ * Developed By :- CueBlocks.com
+ * 
+ */
+-->
+<config>
+    <modules>
+        <CueBlocks_Zoom>
+            <version>3.0.2</version>
+        </CueBlocks_Zoom>
+    </modules>
+    <global>
+        <helpers>
+            <cueBlocks_zoom>
+                <class>CueBlocks_Zoom_Helper</class>
+            </cueBlocks_zoom>
+        </helpers>
+    </global>
+    <default>
+        <cueBlocks_zoom>
+            <general>
+                <enabled>1</enabled>
+                <defaulzoom>0</defaulzoom>
+            </general>
+        </cueBlocks_zoom>
+    </default>
+    <frontend>
+        <layout>
+            <updates>
+                <cueBlocks_zoom>
+                    <file>zoom.xml</file>
+                </cueBlocks_zoom>
+            </updates>
+        </layout>
+    </frontend>
+</config>

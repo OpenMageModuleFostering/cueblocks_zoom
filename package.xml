@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>CueBlocks_Zoom</name>
+    <version>3.0.2</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Product Zoom Extension</summary>
+    <description>The extension replaces the default zoom slider under the main image box with jQuery zoom. The user can mouse-over the image and the larger image view of that particular area shows up on the screen next to the main image (user can magnify a specific part of the image without having to open the images in a new window). Also, all images under "More Views" load on the product page itsef and make use of the localized zoom function of the extension. Installation will take approximately 5 minutes.</description>
+    <notes>moved files (template/layout and skin ) to base theme</notes>
+    <authors><author><name>CueBlocks</name><user>Francesco</user><email>magento@cueblocks.com</email></author></authors>
+    <date>2013-05-01</date>
+    <time>07:18:12</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="CueBlocks_Zoom.xml" hash="0d477a5b9129a68846095097db5c4200"/></dir></target><target name="mageweb"><dir name="js"><dir name="CBjquery"><file name="Cuejqzoom.js" hash="3c58bdffc834675eccb95a87d9cccd8e"/><file name="jquery-1.5.2.min.js" hash="af72eea89865d0ce07d6ad2f7588c99d"/><file name="jquery.jqzoom1.0.1.js" hash="e9f4b7aa0448b0ed364c766b21e5a4d0"/></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="zoom"><file name="media.phtml" hash="fc688a1154c2cbfa9c87a1cd4bb5303f"/></dir></dir><dir name="layout"><file name="zoom.xml" hash="5b7c142d407272640d28342c3ebd020c"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="jqzoom.css" hash="6b12d033e477ead2050d9d5cd58d7185"/></dir><dir name="images"><file name="zoomloader.gif" hash="7b9776076d5fceef4993b55c9383dedd"/></dir></dir></dir></dir></target><target name="magecommunity"><dir name="CueBlocks"><dir name="Zoom"><dir name="Helper"><file name="Data.php" hash="ef55ad84540bac0d4ef64a38faa32e6f"/></dir><dir name="etc"><file name="config.xml" hash="84c5f8be340643119dbd8633ea270c15"/></dir><file name="readme.txt" hash="340d528f4b784b4794763592f070ad0d"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
