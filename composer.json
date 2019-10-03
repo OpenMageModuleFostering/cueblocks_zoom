@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/CueBlocks_Zoom",
+    "name": "OpenMageModuleFostering\/CueBlocks_Zoom",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Product Zoom Extension",
     "authors": [
-    {
-        "name": "CueBlocks",
-        "email": "magento@cueblocks.com"
-    }
-],
+        {
+            "name": "CueBlocks",
+            "email": "magento@cueblocks.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
